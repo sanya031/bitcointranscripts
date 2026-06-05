@@ -6,7 +6,6 @@ date: '2024-07-06'
 tags:
   - 'silent-payments'
 speakers:
-  - 'Sjors Provoost'
   - 'Aaron van Wirdum'
   - 'Ruben Somsen'
 categories:
