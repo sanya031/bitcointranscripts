@@ -5,6 +5,7 @@ media: 'https://bitcoinexplainedpodcast.com/@nado/episodes/episode-94-silent-pay
 date: '2024-07-06'
 tags:
   - 'silent-payments'
+  - 'amp'
 speakers:
   - 'Sjors Provoost'
   - 'Aaron van Wirdum'
