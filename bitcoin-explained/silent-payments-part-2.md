@@ -2,9 +2,10 @@
 title: 'Silent Payments part 2'
 transcript_by: 'sanya031 via review.btctranscripts.com'
 media: 'https://bitcoinexplainedpodcast.com/@nado/episodes/episode-94-silent-payments-part-2'
-date: '2024-07-06'
+date: '2024-07-05'
 tags:
   - 'silent-payments'
+  - 'altcoins'
 speakers:
   - 'Aaron van Wirdum'
   - 'Ruben Somsen'
