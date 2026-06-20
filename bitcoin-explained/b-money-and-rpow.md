@@ -1,21 +1,25 @@
 ---
-title: "B-money and RPOW"
-transcript_by: kouloumos via tstbtc v1.0.0 --needs-review
-source_file: https://bitcoinexplainedpodcast.com/audio/@nado/episode-89-b-money-and-rpow-rm5k2.mp3
-media: https://bitcoinexplainedpodcast.com/@nado/episodes/episode-89-b-money-and-rpow-rm5k2
-tags: []
-speakers: ['Sjors Provoost', 'Aaron van Wirdum']
+title: 'B-money and RPOW'
+transcript_by: 'sanya031 via review.btctranscripts.com'
+source_file: 'https://bitcoinexplainedpodcast.com/@nado/episodes/episode-89-b-money-and-rpow-rm5k2'
+media: 'https://bitcoinexplainedpodcast.com/@nado/episodes/episode-89-b-money-and-rpow-rm5k2'
+tags:
+  - 'altcoins'
+  - 'annex'
+speakers:
+  - '0xB10C'
+  - 'Speaker 1'
 categories: []
-summary: "In this episode of Bitcoin, Explained, Aaron and Sjors discuss two more electronic cash projects that predate Bitcoin: Wei Dai's b-money and Hal Finney's RPOW. As detailed in Aaron's new book, The Genesis Book, these systems introduced design elements that were later utilized by Satoshi Nakamoto. Aaron and Sjors explain what these elements are, and how the inspired Bitcoin's design."
+summary: 'In this episode of Bitcoin, Explained, Aaron and Sjors discuss two more electronic cash projects that predate Bitcoin: Wei Dai''s b-money and Hal Finney''s RPOW. As detailed in Aaron''s new book, The Genesis Book, these systems introduced design elements that were later utilized by Satoshi Nakamoto. Aaron and Sjors explain what these elements are, and how the inspired Bitcoin''s design.'
 episode: 89
-date: 2024-01-22
+date: '2024-01-22'
 additional_resources:
--   title: https://web.archive.org/web/20050211031649/http://www.eskimo.com/~weidai/bmoney.txt
-    url: https://web.archive.org/web/20050211031649/http://www.eskimo.com/~weidai/bmoney.txt
--   title: https://nakamotoinstitute.org/finney/rpow/index.html
-    url: https://nakamotoinstitute.org/finney/rpow/index.html
+  - title: 'https://web.archive.org/web/20050211031649/http://www.eskimo.com/~weidai/bmoney.txt'
+    url: 'https://web.archive.org/web/20050211031649/http://www.eskimo.com/~weidai/bmoney.txt'
+  - title: 'https://nakamotoinstitute.org/finney/rpow/index.html'
+    url: 'https://nakamotoinstitute.org/finney/rpow/index.html'
 ---
-Speaker 0: 00:00:18
+0xB10C: 00:00:18
 
 Live from Utrecht, this is Bitcoin Explained.
 Jors, are you ready for Bookshell episode 2 out of 2?
@@ -24,7 +28,7 @@ Speaker 1: 00:00:26
 
 Absolutely.
 
-Speaker 0: 00:00:27
+0xB10C: 00:00:27
 
 So today we're going to discuss two more electronic cash proposals that predated Bitcoin that I've also written about in my brilliant …
 No, I'm not.
@@ -33,7 +37,7 @@ Speaker 1: 00:00:37
 
 So, should we call these things shitcoins or is that not fair because they are pre-Bitcoin?
 
-Speaker 0: 00:00:43
+0xB10C: 00:00:43
 
 Well, no, they're definitely not shitcoins then, right?
 
@@ -41,7 +45,7 @@ Speaker 1: 00:00:46
 
 Right.
 
-Speaker 0: 00:00:47
+0xB10C: 00:00:47
 
 I don't think that wouldn't qualify as shitcoin.
 
@@ -49,7 +53,7 @@ Speaker 1: 00:00:50
 
 We'll have to ask Giacomo.
 
-Speaker 0: 00:00:52
+0xB10C: 00:00:52
 
 Yes, good idea.
 So we're going to discuss B-money and ARPAO, but first, dear listener, Do you always lose your coins?
@@ -66,7 +70,7 @@ Speaker 1: 00:01:29
 
 PSBT.
 
-Speaker 0: 00:01:30
+0xB10C: 00:01:30
 
 There you go.
 
@@ -75,7 +79,7 @@ Speaker 1: 00:01:31
 All righty.
 Thank you, Goldcard, for sponsoring the show.
 
-Speaker 0: 00:01:35
+0xB10C: 00:01:35
 
 Indeed.
 So…
@@ -100,7 +104,7 @@ Speaker 1: 00:02:31
 Exactly.
 You still need to sign it.
 
-Speaker 0: 00:02:33
+0xB10C: 00:02:33
 
 So one more sale for this guy.
 Yes, I'm going to give you some little bit of context on B-Money.
@@ -110,7 +114,7 @@ Speaker 1: 00:02:45
 
 Yeah, tell me about B-Money.
 
-Speaker 0: 00:02:46
+0xB10C: 00:02:46
 
 You can't read it.
 
@@ -118,7 +122,7 @@ Speaker 1: 00:02:47
 
 Was it code?
 
-Speaker 0: 00:02:48
+0xB10C: 00:02:48
 
 Okay, let's start here.
 So B-Money was a proposal.
@@ -142,14 +146,13 @@ Speaker 1: 00:03:58
 You're going to explain this one.
 I'm going to take the lead on this one.
 
-Speaker 0: 00:04:02
+0xB10C: 00:04:02
 
 Well what I will say, one thing about B-money, yeah, you just asked, was there code, I think?
 Yes.
 So the answer is no.
 So B-money was actually never implemented.
-It is mentioned in the Bitcoin white paper,
-by the way, but it was never actually implemented like Bitgold, which was also never actually implemented.
+It is mentioned in the Bitcoin white paper, by the way, but it was never actually implemented like Bitgold, which was also never actually implemented.
 Yeah.
 And I would say B-money even more than Bitgold, there's definitely some, there's significantly a significant hand-waving going on with several parts of the design.
 
@@ -157,7 +160,7 @@ Speaker 1: 00:04:33
 
 Right, so we don't exactly know how it works because it wasn't described in a lot of detail and there were a lot of unsolved problems.
 
-Speaker 0: 00:04:39
+0xB10C: 00:04:39
 
 Yeah, it was more, it was a rough sketch of a digital cash system.
 It was an idea, it was almost sort of brainstormy, but it was getting there, but a lot of problems sort of unsolved.
@@ -170,7 +173,7 @@ Speaker 1: 00:05:25
 
 I thought you mentioned there were two kinds of coin creation mechanisms.
 
-Speaker 0: 00:05:30
+0xB10C: 00:05:30
 
 Well, what I'm referring to is mostly the actual proof of work.
 Like the proof of work system would have probably been similar.
@@ -179,7 +182,7 @@ Speaker 1: 00:05:40
 
 They were just hashing something.
 
-Speaker 0: 00:05:42
+0xB10C: 00:05:42
 
 Yeah.
 Yeah.
@@ -188,12 +191,10 @@ Okay.
 So, B-Money, it's not even really one proposal.
 It's sort of several proposals wrapped into one.
 It's like an idea and there's several ways to do it.
-Now, what I think was the most interesting thing about B-money is how double spending is prevented,
-or at least one of the ways.
+Now, what I think was the most interesting thing about B-money is how double spending is prevented, or at least one of the ways.
 Yeah.
 This is getting tricky to explain this because of all the possibilities, if you fork the different design options.
-So if you want to send coins from one public key to another, similar like Bitgold or Bitcoin, I guess,
-if you want to send coins.
+So if you want to send coins from one public key to another, similar like Bitgold or Bitcoin, I guess, if you want to send coins.
 Now the problem of course is how do you prevent double spending?
 How do you prevent that one coin is sent to multiple people at once and there's a discrepancy there?
 Wideye's proposal essentially was everyone's going to keep track of the state of the ledger.
@@ -203,7 +204,7 @@ Speaker 1: 00:06:56
 
 Exactly.
 
-Speaker 0: 00:06:57
+0xB10C: 00:06:57
 
 Everyone's keeping track of who owns what.
 So this was an idea that B-Money introduced, that YDAI introduced, which is very relevant to Bitcoin.
@@ -220,11 +221,10 @@ Especially if they got it after the fact, I guess.
 Because if you're following it live, you can at least say, well, you know, whichever comes first, but even that can split it up if it happens at the same time, but at least if it was like two weeks between it, you could say, well, clearly this one was first and this one was second.
 But if you're coming online a year later, you have no idea, right?
 
-Speaker 0: 00:07:45
+0xB10C: 00:07:45
 
 Yeah, pretty much.
-So the only way it could work, why did I mention that in this proposal, if you have an unjammable, you know, instant communication network or something like that, which is magic,
-yeah, Essentially.
+So the only way it could work, why did I mention that in this proposal, if you have an unjammable, you know, instant communication network or something like that, which is magic, yeah, Essentially.
 So that is not what I guess.
 
 Speaker 1: 00:08:04
@@ -232,7 +232,7 @@ Speaker 1: 00:08:04
 Yeah.
 If everybody knows about it at the exact same time and with no delay, then you can, everybody can see who's first, but it does require everybody to not just to store all the transactions, but to be online all the time.
 
-Speaker 0: 00:08:16
+0xB10C: 00:08:16
 
 Right.
 So I would qualify this.
@@ -261,7 +261,7 @@ Speaker 1: 00:10:36
 
 Or maybe he didn't have an answer for it.
 
-Speaker 0: 00:10:38
+0xB10C: 00:10:38
 
 Yeah, that sort of seems to be the case, as I mentioned in the beginning.
 The way I'm reading it, it's sort of, here's this idea, here's what I come up with, do with it what you want.
@@ -283,7 +283,7 @@ Speaker 1: 00:12:22
 But wait, there's more.
 Yeah.
 
-Speaker 0: 00:12:27
+0xB10C: 00:12:27
 
 Was this a reference, were you referring to me telling more about B-money?
 No, I was referring to Steve Jobs here.
@@ -301,7 +301,7 @@ Speaker 1: 00:13:45
 
 But the idea was then that the amount of proof of work needed depends on the supply that's out there and then the desire for keeping the price at a certain level.
 
-Speaker 0: 00:13:54
+0xB10C: 00:13:54
 
 So there's two proposals.
 So the first idea was, again, let's for Simplicity just take this, it doesn't really matter, but let's take this registry, like the version of B-Money where there's this group of servers that sort of decides, you know, prevents double spending.
@@ -316,7 +316,7 @@ Speaker 1: 00:14:48
 It's not even an oracle.
 It's really a committee that has to look at how difficult it should be.
 
-Speaker 0: 00:14:54
+0xB10C: 00:14:54
 
 Yeah, pretty much.
 So that's how they keep, What's the best way to put it?
@@ -328,9 +328,10 @@ Speaker 1: 00:15:12
 I mean, the eventual breakthrough was to realize that if you want to have a constant amount of new supply every so much time, then you just use time as a way to decide how high the difficulty should be.
 That was the insight by Satoshi.
 So you don't need a committee, but you can actually just use a clock.
-Yes, however- He was getting there, but he didn't make it all the way.
+Yes, however-
+He was getting there, but he didn't make it all the way.
 
-Speaker 0: 00:15:36
+0xB10C: 00:15:36
 
 Well, but it is very different, because Bitcoin does not have this goal of a stable, you know, stable in quote marks, I guess, because who defines stable, but stable purchasing power, at least not in a CPI type of way.
 
@@ -343,7 +344,7 @@ But then the secondary goal is how to make the purchasing power stable, and that
 Some people see that as a feature, other people see it as a bug.
 Stablecoin solved that problem, but then they have all the other problems.
 
-Speaker 0: 00:16:17
+0xB10C: 00:16:17
 
 I mean, this to an extent comes down to the definition of stable, right?
 Which is actually…
@@ -354,7 +355,7 @@ Stable purchasing power, basically.
 I think you can objectively see that the purchasing power of Bitcoin is less stable than that of the euro, at least so far.
 Maybe in the long run it becomes more stable.
 
-Speaker 0: 00:16:35
+0xB10C: 00:16:35
 
 That I would probably agree with.
 However, you're always stuck with defining stable, which is never...
@@ -365,7 +366,7 @@ No, that's what I'm saying.
 Stable compared to purchasing power.
 You have to pick something.
 
-Speaker 0: 00:16:52
+0xB10C: 00:16:52
 
 No, no, no, sure.
 
@@ -373,7 +374,7 @@ Speaker 1: 00:16:54
 
 It doesn't have to be CPI.
 
-Speaker 0: 00:16:55
+0xB10C: 00:16:55
 
 Purchasing power of what?
 What are you purchasing?
@@ -384,7 +385,7 @@ Yeah, of whatever lifestyle you're having.
 But I agree, there's also the factors that decide that, right?
 So that's a whole economics discussion.
 
-Speaker 0: 00:17:08
+0xB10C: 00:17:08
 
 Yeah, so let's sidestep that.
 But I do get into that aspect in my book as well, at least for a part, especially Hayek's ideas about that, this sort of what I highlight.
@@ -403,7 +404,7 @@ But it's not a winner takes all system, right?
 This proposal would have been a winner-takes-all system.
 You win the auction, you get to make the coins.
 
-Speaker 0: 00:18:23
+0xB10C: 00:18:23
 
 Well, Bitcoin is that as well, right?
 There's only one winner of a block, essentially.
@@ -415,7 +416,7 @@ But on average, everybody can contribute hash power.
 And it's not the case that like any given hash is predetermined to go to you, right?
 With this proposal, I think if you win the auction, then you are doing the mining for a certain period of time.
 
-Speaker 0: 00:18:45
+0xB10C: 00:18:45
 
 I mean, I think the way B-Money, I think this proposal would have been, okay, we're going to bring 100 coins into circulation today.
 How much hash do you want to show for it?
@@ -427,7 +428,7 @@ Speaker 1: 00:19:00
 Oh, okay, but that's more of a race then, where everybody has to put in effort.
 Because an auction is something where only the winner pays or has to do something.
 
-Speaker 0: 00:19:08
+0xB10C: 00:19:08
 
 Yeah, but how do you know?
 
@@ -435,7 +436,7 @@ Speaker 1: 00:19:11
 
 So what I thought he was doing, but I haven't read it, so maybe That's why I'm wrong.
 
-Speaker 0: 00:19:15
+0xB10C: 00:19:15
 
 Well, it's not detailed, but it's hand-wavy, so that's why I can't…
 
@@ -448,7 +449,7 @@ And then it's okay, you get this job for the next week, and then next week, some
 Because otherwise, a lot of people are basically doing a lot of effort, but they're not winning at all because they are not the very best.
 They are the second best.
 
-Speaker 0: 00:19:41
+0xB10C: 00:19:41
 
 Yeah, but I do suspect that that is how it would have worked in White Ice mines.
 I don't know.
@@ -465,7 +466,7 @@ I don't think it's an auction because in an auction you only pay if you win.
 Whereas here you always have cost as a miner, you're always spending energy, but you may or may not get the reward based on whether you're the highest bidder.
 So it's not proportional.
 
-Speaker 0: 00:20:17
+0xB10C: 00:20:17
 
 Yes, yes, it is a bit different in that sense.
 Anyway, so this stuff is kind of hand-waved.
@@ -477,7 +478,7 @@ Speaker 1: 00:20:41
 
 Which brings my question is why, given that it was just a side note, Why is it then still remembered?
 
-Speaker 0: 00:20:50
+0xB10C: 00:20:50
 
 Well, for one, it's of course in the Bitcoin white paper referenced.
 I think what I emphasize in my book as sort of the breakthrough step that B-Money in a way introduced is this idea that everyone's going to keep track of balances, even though he didn't actually propose a way to do it.
@@ -500,7 +501,7 @@ Yeah.
 All right.
 Sounds like there was another proposal.
 
-Speaker 0: 00:22:50
+0xB10C: 00:22:50
 
 Yes.
 So now we're going to take kind of a jump in time actually, because so Bitgold and Bmoney were both proposed in 1998.
@@ -517,7 +518,7 @@ Speaker 1: 00:23:37
 But it was inspired by these ideas.
 But what was very unique about this proposal is that it had code.
 
-Speaker 0: 00:23:44
+0xB10C: 00:23:44
 
 Yes, yeah, That's right.
 RPOW was actually implemented by Helvini and run by Helvini.
@@ -527,7 +528,7 @@ Speaker 1: 00:23:54
 
 Yes, please.
 
-Speaker 0: 00:23:55
+0xB10C: 00:23:55
 
 Okay.
 So RPOW, it's sort of interesting.
@@ -539,7 +540,7 @@ Speaker 1: 00:24:22
 
 Decentralize.
 
-Speaker 0: 00:24:23
+0xB10C: 00:24:23
 
 Oh, sorry.
 Yeah, decentralized.
@@ -552,7 +553,7 @@ Speaker 1: 00:24:42
 But it was transparent, right?
 That was…
 
-Speaker 0: 00:24:44
+0xB10C: 00:24:44
 
 Yeah, yeah.
 So I'm getting there.
@@ -574,7 +575,7 @@ Speaker 1: 00:25:56
 
 Well, yeah, the making things invalid and giving new ones in return is something you see with the e-cash as well.
 
-Speaker 0: 00:26:01
+0xB10C: 00:26:01
 
 Yes, indeed.
 
@@ -582,7 +583,7 @@ Speaker 1: 00:26:03
 
 Except that these are not blinded at all.
 
-Speaker 0: 00:26:05
+0xB10C: 00:26:05
 
 Right, so the privacy in this case, as I mentioned, is you can just connect with the server through something like Tor and then the server doesn't know who you are anyways.
 Yeah.
@@ -592,7 +593,7 @@ Speaker 1: 00:26:25
 
 Yeah, which has, I believe, one of the benefits is that it's easier to check the supply.
 
-Speaker 0: 00:26:34
+0xB10C: 00:26:34
 
 Yeah, I guess that's a good point.
 Well…
@@ -601,7 +602,7 @@ Speaker 1: 00:26:37
 
 How was the supply created?
 
-Speaker 0: 00:26:39
+0xB10C: 00:26:39
 
 Well, hang on.
 So the server, there's two ways that the server essentially issues coins, right?
@@ -613,7 +614,7 @@ Speaker 1: 00:27:01
 Yeah, it was completely inflationary, but you can at least check the amount of proofer work that goes in.
 I don't know if you can check it actually, because you'd have to ask for the whole transaction log and I don't know if the server will give you the entire transaction log.
 
-Speaker 0: 00:27:16
+0xB10C: 00:27:16
 
 I don't think it would.
 No, I don't think so.
@@ -628,7 +629,7 @@ but we'll get to the transparency side of it later.
 But I think you rely on understanding what code is running and you can see that that code is not creating inflation, therefore you're trusting extra inflation I mean.
 It's not like printing money for the owner, but only because you know that that code should do what it says it does.
 
-Speaker 0: 00:27:48
+0xB10C: 00:27:48
 
 Yes.
 Well, that's the next point where we're getting at.
@@ -649,7 +650,7 @@ You'd have to go to this bank and work with these buckets and all that stuff.
 Whereas now, with ARPAO, you do have change.
 The server can give you change.
 
-Speaker 0: 00:28:57
+0xB10C: 00:28:57
 
 Yeah, with ARPAO you don't own the hashes themselves.
 The hashes are just a way to earn coins.
@@ -673,7 +674,7 @@ Speaker 1: 00:30:09
 
 Yeah, because of course, in open source, the big problem is you have no idea what code is actually running.
 
-Speaker 0: 00:30:17
+0xB10C: 00:30:17
 
 On someone else's server,
 
@@ -688,7 +689,7 @@ Yes.
 Which is a pretty cool concept.
 I can try and explain it.
 
-Speaker 0: 00:30:42
+0xB10C: 00:30:42
 
 Yes, that's, we're getting close to your wheelhouse now.
 Like I know the concept, but yeah, let's go for...
@@ -709,7 +710,7 @@ And then the question is, what does it sign?
 It basically makes a hash of whatever program is running right then, and that's what it signs for.
 There's a lot of caveats here.
 
-Speaker 0: 00:31:58
+0xB10C: 00:31:58
 
 Yeah, well, the private key is really embedded in the chip itself.
 
@@ -724,7 +725,7 @@ But the assumption is that the owner cannot get the key out, therefore you can t
 That's the public key cryptography at work.
 And that the computer is maybe not lying because IBM says that their computers don't lie.
 
-Speaker 0: 00:32:49
+0xB10C: 00:32:49
 
 Yeah, you're trusting IBM essentially.
 Now you could make the argument that you're kind of trusting IBM anyways if you're running their hardware?
@@ -736,7 +737,7 @@ Speaker 1: 00:33:02
 The owner is, but you as the person using the money system have to trust IBM.
 And not just trust them for not being malicious, but also trust them for not having a vulnerability in there and not disclosing it or something like that.
 
-Speaker 0: 00:33:17
+0xB10C: 00:33:17
 
 Right.
 So yeah, that's the essence of RPOW.
@@ -748,7 +749,7 @@ And so the funny thing about Bitcoin then is that saying, okay, well, we'd rathe
 Everyone is going to run the exact same software, and it should produce the same result giving the same data.
 So that's kind of a fun way back.
 
-Speaker 0: 00:34:01
+0xB10C: 00:34:01
 
 Right.
 What else can I say about RPOW?
@@ -764,7 +765,7 @@ And the code is there that produces the work that you can then sell.
 And that code actually makes sure that it's producing roughly the same number of coins every 10 minutes.
 So that is, it's not like, it's not a requirement in consensus, but it's just some, for some reason, there's already difficulty adjustment in there.
 
-Speaker 0: 00:34:53
+0xB10C: 00:34:53
 
 Right, right, right.
 What else?
@@ -778,7 +779,7 @@ If the government says, hey, Mr. Affini, what are you doing here with all this m
 Please turn it off.
 Because yes, it's transparent, but if he turns it off, it's off.
 
-Speaker 0: 00:35:23
+0xB10C: 00:35:23
 
 Yeah, that's very true.
 Of course, he couldn't cheat, but the server could still be shut down.
@@ -789,7 +790,7 @@ Speaker 1: 00:35:29
 
 And the government can, of course, also force IBM to produce fake signatures and all that stuff.
 
-Speaker 0: 00:35:34
+0xB10C: 00:35:34
 
 Right.
 
@@ -797,7 +798,7 @@ Speaker 1: 00:35:35
 
 But I don't know if that's the reason why people didn't use it.
 
-Speaker 0: 00:35:38
+0xB10C: 00:35:38
 
 Well Greg Maxwell and I think it's just there was no economic incentive for anyone to use it.
 Like why would you use something if you know for sure that next year it's going to be worth less?
@@ -806,7 +807,7 @@ Speaker 1: 00:35:49
 
 So purely the inflation was holding people back.
 
-Speaker 0: 00:35:52
+0xB10C: 00:35:52
 
 I mean, it could still be useful in a hash cash type of way, like to use it as postage.
 But even then you're dealing with this chicken and egg problem, right?
@@ -819,7 +820,7 @@ No, but you could even imagine using it as money, but only for very short term t
 But yeah, so maybe it was the inflation, but also maybe it was just ahead of its time, or there was something about Bitcoin that made it take off.
 Sometimes it's the market's system.
 
-Speaker 0: 00:36:28
+0xB10C: 00:36:28
 
 I mean, I think it's the economic incentives.
 I think it's a limited supply of bitcoins.
@@ -830,7 +831,7 @@ I'm just thinking the QWERTY keyboard classic story, right?
 It wasn't necessarily the best keyboard out there purely from an economics point of view, but it's just the thing that took off.
 Sometimes in technology something takes off because it takes off, but it could also be for the reasons that you mentioned.
 
-Speaker 0: 00:36:51
+0xB10C: 00:36:51
 
 True.
 Okay.
